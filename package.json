@@ -1,0 +1,24 @@
+{
+  "name": "asyncronismo",
+  "version": "1.0.0",
+  "description": "trabajar con asincronismo en javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js",
+    "parametros": "node src/curso/parametros.js",
+    "arrow": "node src/curso/arrow.js",
+    "prototipos": "node src/curso/prototipos.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "omaralexis",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
